@@ -10,44 +10,94 @@
 </head>
 
 <body>
-  <include src="./partials/main/header.html"></include>
-  <section class="takeorder order-container">
-    <!-- TAKE ORDER -->
-      <h2 class="order-title">
-        Take order
-      </h2>
-      <p class="order-text list-item">
-        Xiberia K9 PRO PC Headset
-      </p>
-      <div class="order-product">
-        <img class="order-product-img-hero" src="./images/Rectangle-4279.jpg" alt="">
-        <ul class="order-sale-list">
-          <li class="order-sale-up">
-            65.14 USD
-          </li>
-          <li class="order-sale-done">
-            55.14 USD
-          </li>
-        </ul>
-      </div>
-      <ul class="order-list">
-        <li class="order-item">
-          <img class="order-item-img" src="./images/Rectangle-4280.jpg" width="60px" alt="">
+  <section class="order-container container">
+    <h2 class="order-title">
+      Take order
+    </h2>
+    <p class="order-text list-item">
+      Xiberia K9 PRO PC Headset
+    </p>
+    <div class="order-product">
+      <source srcset="
+
+                    " media="(max-width:1280px)" />
+      <source srcset="
+
+                    " media="(max-width:768px)" />
+      <source srcset="
+/src/images/order/images/mob/Rectangle1-mob-x1.jpg 1x,
+/src/images/order/images/mob/Rectangle1-mob-x2.jpg 2x                  
+ " media="(max-width:320px)" />
+      <img class="order-product-img-hero" src="/src/images/order/images/Rectangle-4279.jpg" max-width="288px" alt="">
+      </picture>
+      <ul class="order-sale-list">
+        <li class="order-sale-up">
+          65.14 USD
         </li>
-        <li class="order-item">
-          <img class="order-item-img" src="./images/Rectangle-4281.jpg" width="60px" alt="">
-        </li>
-        <li class="order-item">
-          <img class="order-item-img" src="./images/Rectangle-4282.jpg" width="60px" alt="">
-        </li>
-        <li class="order-item">
-          <img class="order-item-img" src="./images/Rectangle-4283.jpg" width="60px" alt="">
+        <li class="order-sale-done">
+          55.14 USD
         </li>
       </ul>
-    <include src="./partials/order/tomodal1.html"></include>
-    <include src="./partials/order/tomodal2.html"></include>
+    </div>
+    <ul class="order-list">
+      <li class="order-item">
+        <source srcset="
+            
+                                " media="(max-width:1280px)" />
+        <source srcset="
+            
+                                " media="(max-width:768px)" />
+        <source srcset="
+            /src/images/order/images/mob/Rectangle2-mob-x1.jpg 1x,
+            /src/images/order/images/mob/Rectangle2-mob-x2.jpg 2x
+                                " media="(max-width:320px)" />
+        <img class="order-item-img" src="/src/images/order/images/Rectangle-4280.jpg" width="60px" alt="">
+        </picture>
+      </li>
+      <li class="order-item">
+        <source srcset="
+            
+            " media="(max-width:1280px)" />
+        <source srcset="
+            
+            " media="(max-width:768px)" />
+        <source srcset="
+            /src/images/order/images/mob/Rectangle3-mob-x1.jpg 1x,
+            /src/images/order/images/mob/Rectangle3-mob-x2.jpg 2x
+            " media="(max-width:320px)" />
+        <img class="order-item-img" src="/src/images/order/images/Rectangle-4281.jpg" width="60px" alt="">
+        </picture>
+      </li>
+      <li class="order-item">
+        <source srcset="
+          
+          " media="(max-width:1280px)" />
+        <source srcset="
+          
+          " media="(max-width:768px)" />
+        <source srcset="
+          /src/images/order/images/mob/Rectangle4-mob-x1.jpg x1,
+          /src/images/order/images/mob/Rectangle4-mob-x2.jpg 2x
+          " media="(max-width:320px)" />
+        <img class="order-item-img" src="/src/images/order/images/Rectangle-4282.jpg" width="60px" alt="">
+        </picture>
+      </li>
+      <li class="order-item">
+        <source srcset="
+          
+          " media="(max-width:1280px)" />
+        <source srcset="
+          
+          " media="(max-width:768px)" />
+        <source srcset="
+          /src/images/order/images/mob/Rectangle5-mob-x1.jpg 1x,
+          /src/images/order/images/mob/Rectangle5-mob-x2.jpg 2x
+          " media="(max-width:320px)" />
+        <img class="order-item-img" src="/src/images/order/images/Rectangle-4283.jpg" width="60px" alt="">
+        </picture>
+      </li>
+    </ul>
   </section>
-  <include src="./partials/main/footer.html"></include>
 </body>
 
 </html>
