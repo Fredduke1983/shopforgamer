@@ -1,4 +1,39 @@
 <header class="header">
-  <!-- HEADER -->
-  HEADER
+  <div class="header__container">
+    <nav class="header__navigation">
+      <a href="#" class="header__logo">SHOP FOR GAMERS</a>
+      <button
+        class="menu-button"
+        type="button"
+        data-menu-button
+        aria-expanded="false"
+        aria-controls="menu-container"
+      >
+        <svg width="54" height="36" aria-label="Перемикач мобільного меню">
+          <use
+            class="icon__burger"
+            href="/src/icon/symbol-defs.svg#menu_open"
+          ></use>
+          <use
+            class="icon__cross"
+            href="/src/icon/symbol-defs.svg#menu_close"
+          ></use>
+        </svg>
+      </button>
+      <div class="menu-container" id="menu-container" data-menu>
+        <ul class="header__list">
+          <li class="header__item">
+            <a href="#" class="header__link">accessories</a>
+          </li>
+          <li class="header__item">
+            <a href="#" class="header__link">contact</a>
+          </li>
+          <li class="header__item">
+            <a href="#" class="header__link">blog</a>
+          </li>
+        </ul>
+      </div>
+      <a href="#" class="shop-now">shop now</a>
+    </nav>
+  </div>
 </header>
