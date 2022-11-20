@@ -1,0 +1,146 @@
+.container {
+  width: 1200px;
+}
+.contacts {
+  background-image: url('../images/contact/backgrounddesctop.jpg');
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    background-image: url('../images/contact/bacgrounddesctopx2.jpg');
+  }
+}
+.contacts__title {
+  margin-top: 120px;
+  margin-bottom: 75px;
+  font-weight: 600;
+  font-size: 56px;
+  line-height: 66px;
+  color: #ffffff;
+}
+.contacts__img {
+  margin-bottom: 57px;
+}
+.contacts__banner {
+}
+.contacts__page {
+  display: flex;
+}
+.block-container {
+  width: 488px;
+  margin-right: 123px;
+}
+.contacts__text {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.16;
+  color: #ffffff;
+  margin-bottom: 40px;
+}
+.contacts__text-mail {
+}
+.contacts__mail {
+}
+.contacts__mail-title {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.16;
+  color: #ffffff;
+}
+.contacts__mail-list {
+}
+.contacts__mail-item {
+  margin-bottom: 40px;
+}
+.contacts__mail-ref {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.16;
+  color: #8d9289;
+}
+.contacts__phone {
+}
+.contacts__phone-title {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.16;
+  color: #ffffff;
+}
+.contacts__phone-list {
+}
+.contacts__phone-item {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.16;
+  letter-spacing: 0.01em;
+  color: #8d9289;
+}
+.contacts__form {
+}
+.contacts__form-title {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 1.17;
+  color: #86e543;
+  margin-bottom: 48px;
+}
+.contacts__form-name {
+}
+.contacts__label-name {
+  color: #ffffff;
+}
+.contacts__form-input {
+  display: flex;
+  flex-direction: column;
+  width: 590px;
+
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.11;
+  color: #ffffff;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #86e543;
+  margin-bottom: 40px;
+}
+.contacts__message {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.11;
+  color: #cdcdcd;
+}
+.contacts__message-input {
+  width: 590px;
+  height: 120px;
+  left: 650px;
+  top: 1042px;
+  border: 1px solid #86e543;
+  border-radius: 0px;
+  background-color: transparent;
+  margin-bottom: 47px;
+}
+.contacts__button {
+  display: block;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1.19;
+  text-transform: uppercase;
+  color: #ffffff;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 20px;
+  width: 306px;
+  height: 70px;
+  border: 1px solid #ffffff;
+  border-radius: 16px;
+  background-color: transparent;
+}
+.is-hidden {
+  opacity: 0;
+  pointer-events: none;
+  visibility: hidden;
+}
+.backdrop-is--hidden {
+  & .modal {
+    transform: translate(-50%, -50%) scale(0);
+  }
+}
