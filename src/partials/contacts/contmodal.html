@@ -2,7 +2,12 @@
   <!-- CONTACT MODAL -->
   <div class="backdrop is-hidden" data-modal>
     <div class="modal">
-      <button data-modal-close type="button" class="modal__close-modal">
+      <button data-modal-close type="button" class="modal__close-mob">
+        <svg class="modal__close-icon" width="31" height="31">
+          <use href="../../icon/close-modal.svg"></use>
+        </svg>
+      </button>
+      <button data-modal-close type="button" class="modal__close-tab">
         <svg class="modal__close-icon" width="31" height="31">
           <use href="../../icon/close-modal.svg"></use>
         </svg>
@@ -10,7 +15,8 @@
       <p class="modal__text">
         Thank you for your message! We will contact you soon!
       </p>
-      <button type="button" class="modal-button modal-button-tab">OK</button>
+      <button type="button" class="modal__button modal__button-tab">OK</button>
     </div>
   </div>
 </div>
+<script src="../../modal.js"></script>
