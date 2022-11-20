@@ -1,11 +1,11 @@
 .sale {
-  background-image: url(../images/sale/background-mob-1x.jpg);
+  background-image: url(/src/images/sale/background-mob-1x.jpg);
   width: 100%;
   @media screen and (min-width: 768px) {
-    background-image: url(../images/sale/background-tab-1x.jpg);
+    background-image: url(/src/images/sale/background-tab-1x.jpg);
   }
   @media screen and (min-width: 1280px) {
-    background-image: url(../images/sale/background-dt-1x.jpg);
+    background-image: url(/src/images/sale/background-dt-1x.jpg);
   }
 }
 
@@ -40,6 +40,11 @@
   font-size: 24px;
   line-height: 1.17;
   color: #ffffff;
+  margin-bottom: 35px;
+  @media screen and (min-width: 768px) {
+    font-size: 56px;
+    line-height: 1.18;
+  }
 }
 
 .sale-list {
@@ -120,4 +125,15 @@
   line-height: 1.19;
   color: #01383a;
   margin: 0 auto;
+  @media screen and (min-width: 768px) {
+    font-size: 28px;
+    line-height: 1.18;
+  }
 }
+
+.sale-btn:hover,
+.sale-btn:focus {
+  box-shadow: 0px 4px 20px rgba(255, 255, 255, 0.5),
+    0px 4px 10px rgba(134, 229, 67, 0.1);
+}
+
