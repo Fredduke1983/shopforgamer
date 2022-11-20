@@ -3,6 +3,26 @@ li {
   text-decoration: none;
 }
 
+.order__container {
+  margin-left: auto;
+  margin-right: auto;
+
+  @media screen and(min-width: 320px) {
+    width: 320px;
+  }
+
+  @media screen and(min-width: 768px) {
+    width: 768px;
+
+  }
+
+  @media screen and(min-width: 1280px) {
+    width: 1200px;
+
+  }
+
+}
+
 .order-container {
   margin-left: auto;
   margin-right: auto;
@@ -126,7 +146,6 @@ li {
   font-weight: 600;
   font-size: 16px;
   line-height: 100%;
-  /* identical to box height, or 16px */
 
   text-decoration-line: line-through;
 
@@ -177,3 +196,13 @@ li {
 //.order-item {}
 
 //.order-item-img {}
+
+.contact-text {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28px;
+
+  color: #86E543;
+}
