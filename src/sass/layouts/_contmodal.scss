@@ -6,7 +6,7 @@
   background: rgba(0, 20, 20, 0.8);
 }
 
-.modal-box {
+.modal {
   @media screen and (max-width: 768px) {
     overflow: scroll;
   }
@@ -31,7 +31,7 @@
   padding: 100px 45px;
 }
 
-.modal-close-mob {
+.modal__close-mob {
   @media screen and (min-width: 768px) {
     display: none;
     max-width: inherit;
@@ -47,7 +47,7 @@
   justify-content: center;
 }
 
-.modal-close-tab {
+.modal__close-tab {
   @media screen and (max-width: 767.9px) {
     display: none;
     max-width: inherit;
@@ -63,7 +63,7 @@
   justify-content: center;
 }
 
-.modal-text {
+.modal__text {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 600;
@@ -82,7 +82,7 @@
   margin-bottom: 32px;
 }
 
-.modal-button {
+.modal__button {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -106,7 +106,7 @@
   margin: 0 auto;
 }
 
-.modal-button-tab {
+.modal__button-tab {
   @media screen and (max-width: 480px) {
     width: 90%;
   }
