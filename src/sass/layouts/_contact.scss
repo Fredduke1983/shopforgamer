@@ -43,11 +43,23 @@
     line-height: 1.17;
     margin-left: 0;
   }
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    font-size: 56px;
+    line-height: 1.18;
+    margin-left: 59px;
+    margin-bottom: 67px;
+  }
 }
 .contacts__img {
   margin-bottom: 57px;
+
   @media screen and (min-width: 320px) and (max-width: 767px) {
     margin-bottom: 16px;
+  }
+}
+.contacts__image {
+  @media screen and (min-width: 768px) {
+    border-radius: 12px;
   }
 }
 
@@ -118,9 +130,9 @@
   font-size: 24px;
   line-height: 1.16;
   color: #ffffff;
+  margin-bottom: 8px;
   @media screen and (min-width: 320px) and (max-width: 767px) {
     font-size: 16px;
-    margin-bottom: 8px;
   }
 }
 
@@ -130,16 +142,15 @@
   line-height: 1.16;
   letter-spacing: 0.01em;
   color: #8d9289;
+  margin-bottom: 8px;
   @media screen and (min-width: 320px) and (max-width: 767px) {
     font-size: 16px;
-    margin-bottom: 8px;
   }
 }
 .contacts__phone-item:last-child {
-  @media screen and (min-width: 320px) and (max-width: 767px) {
-    margin-bottom: 0;
-  }
+  margin-bottom: 0;
 }
+
 .contacts__form {
   @media screen and (min-width: 768px) and (max-width: 1199px) {
     margin-top: 40px;
