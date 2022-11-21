@@ -173,7 +173,91 @@
           </picture>
         </li>
       </ul>
-      <p class="contact-text">CONTACT US</p>
+      <section>
+        <div class="order__cont-form">
+          <div class="order__cont">
+            <h3 class="order__form-title">CONTACT US</h3>
+            <label for="name" class="order__label-name">
+              <input
+                class="order__form-input"
+                type="text"
+                name="name"
+                id="name"
+                required
+                placeholder="Name"
+              />
+            </label>
+            <label for="mail" class="order__label-name">
+              <input
+                class="order__form-input"
+                type="email"
+                name="mail"
+                id="mail"
+                required
+                placeholder="Email"
+              />
+            </label>
+            <label for="color order"></label>
+            <input
+              list="color"
+              name="Color Order"
+              id="Color Order"
+              class="order__form-input"
+              placeholder="Color Order"
+            />
+            <datalist id="color">
+              <option>K9D Black Orange</option>
+              <option>K9D Silver Gray</option>
+              <option>K9U White Blue</option>
+            </datalist>
+            <label for="quantity"></label>
+            <input
+              list="number"
+              name="quantity"
+              id="quantity"
+              class="order__form-input"
+              placeholder="Quantitu"
+            />
+            <datalist id="number">
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+            </datalist>
+            <label for="Payment"></label>
+            <input
+              list="pay"
+              name="quantity"
+              id="Payment"
+              class="order__form-input"
+              placeholder="Payment"
+            />
+            <datalist id="pay">
+              <option>visa</option>
+              <option>Master Card</option>
+              <option>Google Pay</option>
+              <option>Aple Pay</option>
+              <option>Binance Pay</option>
+            </datalist>
+          </div>
+          <div class="order__cont-mod">
+            <form>
+              <p class="order__message">Leave your message</p>
+              <textarea
+                class="order__message-input"
+                name="comment"
+                id="comment"
+                required
+              ></textarea>
+            </form>
+          </div>
+        </div>
+        <div class="order-btn">
+          <button type="button" class="order__button">Buy it now</button>
+          <button type="button" class="order__button-add">ADD TO CART</button>
+        </div>
+      </section>
     </section>
   </body>
 </html>
