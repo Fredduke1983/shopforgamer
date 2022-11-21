@@ -62,11 +62,13 @@
     display: flex;
     flex-wrap: wrap;
     gap: 38px;
+    row-gap: 32px;
     justify-content: center;
     // width: calc((100% - 38px) / 2);
   }
   @media screen and (min-width: 1280px) {
     gap: 20px;
+    row-gap: 24px;
     margin-bottom: 24px;
   }
 }
@@ -125,9 +127,12 @@
 }
 
 .sale-btn {
+  width: 153px;
+  height: 51px;
   display: block;
   text-align: center;
-  padding: 16px 48px;
+  align-items: center;
+  padding: 16px 0;
   border-radius: 16px;
   background-color: #ffffff;
 
@@ -139,6 +144,8 @@
   @media screen and (min-width: 768px) {
     font-size: 28px;
     line-height: 1.18;
+    width: 195px;
+    height: 65px;
   }
 }
 
@@ -147,4 +154,3 @@
   box-shadow: 0px 4px 20px rgba(255, 255, 255, 0.5),
     0px 4px 10px rgba(134, 229, 67, 0.1);
 }
-
