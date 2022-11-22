@@ -1,3 +1,7 @@
+.accessories {
+  padding: 40px 18px 48px 18px;
+}
+
 .article__title {
   margin-top: 40px;
   margin-bottom: 31px;
@@ -14,6 +18,8 @@
 }
 
 .article__author {
+  margin-bottom: 8px;
+
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 600;
@@ -23,6 +29,8 @@
 }
 
 .article__update {
+  margin-bottom: 8px;
+
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 600;
@@ -30,4 +38,27 @@
   line-height: 100%;
 
   color: #8d9289;
+}
+
+.top__article__list {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.article__text {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
+  color: white;
+}
+
+.bot__article__list {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 24px;
 }
