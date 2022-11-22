@@ -1,13 +1,19 @@
 .hero {
+  padding-top: 104px;
   position: relative;
   height: 601px;
   background-color: #01383a;
-  background-image: url(/src/images/hero/Hero.png);
-  background-position: center;
+
+  background-image: url(/src/images/hero/Hero.png),
+    url(/src/images/hero/vector.png);
+  background-position: right;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
+
   @media screen and(min-width: 768px) {
+    padding-top: 136px;
     height: 860px;
+    background-position: center;
   }
 }
 
@@ -15,11 +21,9 @@
   position: absolute;
   top: 0;
   height: 100%;
-  background-image: linear-gradient(
-      (rgba(6, 22, 1, 0.25)),
-      (rgba(94, 236, 54, 0.25))
-    ),
-    url(/src/images/hero/bg-mob.png);
+  padding-top: 104px;
+  background-image: url(/src/images/hero/bg-mob.png);
+  background-blend-mode: luminosity;
   width: 100%;
   background-repeat: no-repeat;
   background-size: contain;
@@ -27,10 +31,25 @@
   padding: 104px 0 25px 16px;
 
   @media screen and(min-width: 768px) {
+    padding-top: 136px;
     background-image: url(/src/images/hero/bg-tablet.png);
   }
   @media screen and(min-width: 1280px) {
     background-image: url(/src/images/hero/bg-desktop.png);
+  }
+}
+
+.wrap {
+  @media screen and (max-width: 767px) {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  padding: 180px 37px 203px 36px;
+  @media screen and(min-width: 768px) {
+    padding: 154px 340px 372px 40px;
+  }
+  @media screen and(min-width: 1280px) {
+    padding: 180px 702px 319px 142px;
   }
 }
 
@@ -40,51 +59,52 @@
   line-height: 1.19;
   text-align: center;
   color: #fff;
-  min-width: 247px;
+  max-width: 247px;
   margin-bottom: 25px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 180px;
+  @media screen and (max-width: 767px) {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   @media screen and(min-width: 768px) {
     font-size: 56px;
     line-height: 1.18;
-    margin-left: 40px;
     margin-bottom: 94px;
     text-align: start;
-    padding-top: 154px;
-    min-width: 388px;
+    max-width: 388px;
   }
   @media screen and(min-width: 1280px) {
     font-size: 64px;
-    line-height: 1.17px;
-    padding-top: 180px;
-    min-width: 436px;
-    padding-left: 142px;
+    line-height: 1.17;
+
+    max-width: 436px;
     margin-bottom: 40px;
   }
 }
 
 .link {
-  display: flex;
+  display: block;
   align-items: center;
-  width: 173px;
+  width: 176px;
   height: 51px;
   background-color: #86e543;
   border-radius: 16px;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.19;
-  //   text-align: right;
+  text-align: center;
   text-transform: uppercase;
   color: #01383a;
   padding: 16px 20px;
-  margin-right: auto;
-  margin-left: auto;
+  border: none;
+  @media screen and (max-width: 767px) {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   @media screen and(min-width: 768px) {
-    margin-left: 0;
     width: 306px;
     height: 70px;
     font-size: 32px;
-    margin-left: 41px;
   }
 }
