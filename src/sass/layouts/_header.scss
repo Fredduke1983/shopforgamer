@@ -90,6 +90,9 @@
 	}
 
 	@media screen and (min-width: 1280px) {
+		&__logo {
+			max-width: 121px;
+		}
 		&__list {
 			position: relative;
 			z-index: 2;
