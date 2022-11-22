@@ -1,31 +1,72 @@
 .hero {
   position: relative;
-  height: 497px;
+  height: 601px;
   background-color: #01383a;
+  background-image: url(/src/images/hero/Hero.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  @media screen and(min-width: 768px) {
+    height: 860px;
+  }
 }
 
 .overlay {
   position: absolute;
-  z-index: 1;
   top: 0;
-  right: 0;
-  // background-image: url(../images/hero/Frame.jpg);
+  height: 100%;
+  background-image: linear-gradient(
+      (rgba(6, 22, 1, 0.25)),
+      (rgba(94, 236, 54, 0.25))
+    ),
+    url(/src/images/hero/bg-mob.png);
+  width: 100%;
   background-repeat: no-repeat;
-  background-size: 304px 472px;
+  background-size: contain;
+  background-position: right;
+  padding: 104px 0 25px 16px;
+
+  @media screen and(min-width: 768px) {
+    background-image: url(/src/images/hero/bg-tablet.png);
+  }
+  @media screen and(min-width: 1280px) {
+    background-image: url(/src/images/hero/bg-desktop.png);
+  }
 }
 
 .title {
-  font-weight: 600;
+  font-weight: 500;
   font-size: 32px;
   line-height: 1.19;
   text-align: center;
   color: #fff;
-  width: 247px;
+  min-width: 247px;
   margin-bottom: 25px;
+  margin-left: auto;
+  margin-right: auto;
   padding-top: 180px;
+  @media screen and(min-width: 768px) {
+    font-size: 56px;
+    line-height: 1.18;
+    margin-left: 40px;
+    margin-bottom: 94px;
+    text-align: start;
+    padding-top: 154px;
+    min-width: 388px;
+  }
+  @media screen and(min-width: 1280px) {
+    font-size: 64px;
+    line-height: 1.17px;
+    padding-top: 180px;
+    min-width: 436px;
+    padding-left: 142px;
+    margin-bottom: 40px;
+  }
 }
 
 .link {
+  display: flex;
+  align-items: center;
   width: 173px;
   height: 51px;
   background-color: #86e543;
@@ -37,5 +78,13 @@
   text-transform: uppercase;
   color: #01383a;
   padding: 16px 20px;
-  margin: auto;
+  margin-right: auto;
+  margin-left: auto;
+  @media screen and(min-width: 768px) {
+    margin-left: 0;
+    width: 306px;
+    height: 70px;
+    font-size: 32px;
+    margin-left: 41px;
+  }
 }

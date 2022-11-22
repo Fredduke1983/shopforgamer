@@ -2,15 +2,17 @@
   <!-- CONTACT MODAL -->
   <div class="backdrop is-hidden" data-modal>
     <div class="modal">
-      <button data-modal-close type="button" class="modal__close-modal">
-        <svg class="modal__close-icon" width="31" height="31">
-          <use href="../../icon/close-modal.svg"></use>
+      <button type="button" class="modal__close" data-modal-close>
+        <svg class="modal__close-icon" width="11" height="11">
+          <use href="/src/icon/symbol-defs.svg#modal_cross"></use>
         </svg>
       </button>
+
       <p class="modal__text">
         Thank you for your message! We will contact you soon!
       </p>
-      <button type="button" class="modal-button modal-button-tab">OK</button>
+      <button data-modal-close type="button" class="modal__button">OK</button>
     </div>
   </div>
 </div>
+<script src="/src/index.js"></script>
