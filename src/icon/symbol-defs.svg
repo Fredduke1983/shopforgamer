@@ -1,5 +1,11 @@
 <svg aria-hidden="true" style="position: absolute; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <defs>
+    <symbol id="icon-close-modal-mob" viewBox="0 0 32 32">
+<path fill="none" stroke="#86e543" style="stroke: var(--color1, #86e543)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="3" d="M30.4 1.6l-28.8 28.8M1.6 1.6l28.8 28.8"></path>
+</symbol>
+    <symbol id="icon-close-modal" viewBox="0 0 32 32">
+<path fill="none" stroke="#86e543" style="stroke: var(--color1, #86e543)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="3.4286" d="M28.857 3.143l-25.714 25.714M3.143 3.143l25.714 25.714"></path>
+</symbol>
         <symbol id="facebook" viewBox="0 0 33 32">
             <path d="M17.149 0c8.837 0 16 7.163 16 16s-7.163 16-16 16c-8.837 0-16-7.163-16-16s7.163-16 16-16z"></path>
             <path d="M21.149 13.181h-2.952v-1.661c0-0.624 0.481-0.769 0.821-0.769h2.083v-2.741l-2.868-0.009c-3.185 0-3.909 2.045-3.909 3.353v1.827h-1.841v2.827h1.84v7.993h3.875v-7.993h2.613l0.339-2.827z"></path>
