@@ -12,7 +12,37 @@
     <!-- Blog Article -->
     <section class="accessories">
       <h2 class="article__title">Guide to Picking The Right Gaming Headset</h2>
+
       <div class="article__image">
+        <picture class="article__picture">
+          <source
+            srcset="
+              /src/images/blog-article/Rectangle-mobile-1x.jpg    1x,
+              /src/images/blog-article/Rectangle-mobile-2xjpg.jpg 2x
+            "
+            media="(max-width: 767px)"
+          />
+          <source
+            srcset="
+              /src/images/blog-article/Rectangle-tablet-1x.jpg 1x,
+              /src/images/blog-article/Rectangle-tablet-2x.jpg 2x
+            "
+            media="(min-width: 768px)"
+          />
+          <source
+            srcset="
+              /src/images/blog-article/Rectangle-desktop-1x.jpg 1x,
+              /src/images/blog-article/Rectangle-desktop-2x.jpg 2x
+            "
+            media="(min-width: 1200px)"
+          />
+
+          <img
+            src="/src/images/blog-article/Rectangle 4279.jpg"
+            alt="навушники"
+            width="320"
+          />
+        </picture>
         <p class="article__author">By Ray Ian Ampoloquio</p>
         <p class="article__update">Updated on September 21, 2022</p>
       </div>
