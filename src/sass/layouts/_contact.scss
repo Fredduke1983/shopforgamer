@@ -22,11 +22,11 @@
   }
 }
 .contacts {
-  background-image: url('../images/contact/background.png');
+  background-image: url('/src/images/contact/background.png');
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
-    background-image: url('../images/contact/backgroundx2.png');
+    background-image: url('/src/images/contact/backgroundx2.png');
   }
 }
 .contacts__title {
