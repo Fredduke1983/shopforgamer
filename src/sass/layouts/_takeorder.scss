@@ -27,6 +27,13 @@ textarea {
   overflow: hidden;
 }
 
+.order-container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
 .order__container {
   margin-left: auto;
   margin-right: auto;
@@ -41,7 +48,7 @@ textarea {
   }
 
   @media screen and(min-width: 1280px) {
-    width: 1200px;
+    width: 1280px;
 
   }
 
@@ -69,6 +76,10 @@ textarea {
 }
 
 .order__one {
+  display: inline-block;
+  justify-content: center;
+  margin-left: auto;
+  margin-left: auto;
 
   @media screen and(min-width: 480px) {}
 
@@ -76,13 +87,24 @@ textarea {
 
   @media screen and(min-width: 1280px) {
     display: none;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
   }
 }
 
 .order__desctop {
-  display: flex;
+  display: none;
 
   @media screen and(max-width: 768px) {
+    display: none;
     position: absolute;
     width: 1px;
     height: 1px;
