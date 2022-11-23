@@ -15,24 +15,30 @@ textarea {
 }
 
 .order__container {
-  margin-left: auto;
-  margin-right: auto;
+  padding-top: 256px;
+  margin: 0 auto;
+  // margin-left: auto;
+  // margin-right: auto;
 
-  @media screen and(min-width: 480px) {
-    width: 480px;
+//   @media screen and(min-width: 480px) {
+//     width: 480px;
+//   }
+
+//   @media screen and(min-width: 768px) {
+//     width: 768px;
+//   }
+
+//   @media screen and(min-width: 1280px) {
+//     width: 1280px;
+//   }
+// }
+
+// .order-container {
+//     margin-left: auto;
+//     margin-right: auto;
+//     padding-left: 16px;
+//     padding-right: 16px;
   }
-
-  @media screen and(min-width: 768px) {
-    width: 768px;
-
-  }
-
-  @media screen and(min-width: 1280px) {
-    width: 1200px;
-
-  }
-
-}
 
 .order__background {
 
@@ -40,8 +46,7 @@ textarea {
   background-image: url(/src/images/order/background/Background_1-mob.jpg);
 
   @media screen and(min-width: 768px) {
-    padding-left: 40px;
-    padding-right: 40px;
+    
     width: 100%;
 
     background-image: url(/src/images/order/background/Background_1-tab.jpg);
@@ -55,16 +60,7 @@ textarea {
   }
 }
 
-.order-container {
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 16px;
-  padding-right: 16px;
 
-
-}
-
-.order__one {}
 
 .order-title {
   font-family: 'Roboto';
