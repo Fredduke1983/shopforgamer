@@ -1,33 +1,124 @@
-.article__title {
+.blog-article {
+  width: 100%;
+  height: 100%;
+  background-repeat: repeat;
+  background-position: center;
+  background-size: cover;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 40px;
-  margin-bottom: 31px;
+  background-image: url(/src/images/blog-article/Blog_article_mobile.jpg);
+  @include tablet {
+    background-image: url(/src/images/blog-article/Blog_article_tablet-2.jpg);
+    margin-top: 120px;
+  }
+  @include desktop {
+    margin-top: 112px;
+    background-image: url(/src/images/blog-article/Blog_article-2.jpg);
+  }
+}
 
-  font-family: 'Roboto';
-  font-style: normal;
+.article__title {
+  margin-bottom: 31px;
   font-weight: 600;
   font-size: 24px;
-  line-height: 28px;
-
+  line-height: 1.16;
   color: #ffffff;
+  @include tablet {
+    font-size: 56px;
+    line-height: 100%;
+  }
 }
 .article__image {
+  width: 100%;
+  margin-bottom: 8px;
+  margin-left: auto;
+  margin-right: auto;
+  @include tablet {
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 43px;
+  }
+}
+.article__picture {
+  // display: inline-block;
+  display: block;
+
+  @include max-mobile {
+    margin-bottom: 20px;
+    width: 100%;
+    height: auto;
+  }
+  @include max-tablet {
+    margin-right: 40px;
+    width: 387px;
+  }
+  @include desktop {
+    margin-right: 121px;
+    min-height: 336px;
+  }
 }
 
 .article__author {
-  font-family: 'Roboto';
-  font-style: normal;
+  margin-bottom: 8px;
+
   font-weight: 600;
   font-size: 16px;
   line-height: 100%;
   color: #ffffff;
+  @include tablet {
+    margin-bottom: 32px;
+    font-size: 24px;
+  }
 }
 
 .article__update {
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: 600;
   font-size: 16px;
   line-height: 100%;
 
   color: #8d9289;
+  @include tablet {
+    font-size: 24px;
+  }
+}
+
+.top__article__list {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.article__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
+  color: white;
+  @include tablet {
+    font-size: 24px;
+    line-height: 1.16;
+  }
+}
+.article__check {
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+.article__text--green {
+  @media screen and (min-width: 768px) {
+    color: #86e543;
+  }
+}
+.article__checklist {
+  margin: 0;
+}
+.article__checklist__item {
+  list-style: decimal;
+}
+
+.bot__article__list {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 24px;
 }
