@@ -36,20 +36,29 @@
 
 .accessories-items {
 	display: flex;
-	flex-wrap: wrap;
-	gap: 24px;
 	justify-content: center;
-	margin-bottom: 32px;
+
+	@media screen and (max-width: 767px) {
+		flex-wrap: wrap;
+		gap: 24px;
+		margin-bottom: 32px;
+	}
 	@media screen and(min-width:768px) {
 		margin-bottom: 74px;
+		& li:not(:last-child) {
+			margin-right: 53px;
+		}
 	}
 	@media screen and(min-width:1280px) {
 		margin-bottom: 72px;
+		& li:not(:last-child) {
+			margin-right: 44px;
+		}
 	}
 }
 .accessories-button {
 	width: 124px;
-	height: 35px;
+	padding: 8px 16px;
 	font-weight: 700;
 	font-size: 16px;
 	line-height: 1.18;
@@ -59,11 +68,21 @@
 	cursor: pointer;
 	border: 1px solid #86e543;
 	border-radius: 16px;
+
+	@media screen and (min-width: 768px) {
+		width: 132px;
+		padding: 16px 24px;
+	}
+
+	@media screen and (min-width: 1280px) {
+		padding: 16px 48px;
+		width: 168px;
+	}
+
 	&:focus,
 	&:hover {
 		color: #01383a;
 		background: #86e543;
-		box-shadow: 0px 4px 4px rgba(134, 229, 67, 0.2);
 		box-shadow: 0px 4px 4px rgba(134, 229, 67, 0.2);
 	}
 }
