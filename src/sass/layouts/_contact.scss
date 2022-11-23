@@ -1,26 +1,26 @@
-// .container {
-//   width: 100%;
-//   margin-left: auto;
-//   margin-right: auto;
+.contacts__container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
 
-//   @media screen and (min-width: 320px) {
-//     width: 320px;
-//     padding-left: 16px;
-//     padding-right: 16px;
-//   }
+  @media screen and (min-width: 320px) {
+    width: 320px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
 
-//   @media screen and (min-width: 768px) {
-//     width: 768px;
-//     padding-left: 40px;
-//     padding-right: 40px;
-//   }
+  @media screen and (min-width: 768px) {
+    width: 768px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
 
-//   @media screen and (min-width: 1200px) {
-//     width: 1200px;
-//     padding-left: 40px;
-//     padding-right: 40px;
-//   }
-// }
+  @media screen and (min-width: 1200px) {
+    width: 1200px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
 .contacts {
   background-image: url('../images/contact/background.png');
   @media (min-device-pixel-ratio: 2),
@@ -30,7 +30,6 @@
   }
 }
 .contacts__title {
-  margin-top: 120px;
   margin-left: 102px;
   margin-bottom: 75px;
   font-weight: 600;
@@ -42,12 +41,20 @@
     font-size: 24px;
     line-height: 1.17;
     margin-left: 0;
+    padding-top: 40px;
+    margin-top: 104px;
   }
   @media screen and (min-width: 768px) and (max-width: 1199px) {
+    padding-top: 120px;
+    margin-top: 136px;
     font-size: 56px;
     line-height: 1.18;
     margin-left: 59px;
     margin-bottom: 67px;
+  }
+  @media screen and (min-width: 1200px) {
+    padding-top: 120px;
+    margin-top: 136px;
   }
 }
 .contacts__img {
