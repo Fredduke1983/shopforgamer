@@ -14,6 +14,19 @@ textarea {
   line-height: 18px;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 .order__container {
   margin-left: auto;
   margin-right: auto;
@@ -55,16 +68,46 @@ textarea {
   }
 }
 
-.order-container {
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 16px;
-  padding-right: 16px;
+.order__one {
 
+  @media screen and(min-width: 480px) {}
+
+  @media screen and(min-width: 768px) {}
+
+  @media screen and(min-width: 1280px) {
+    display: none;
+  }
+}
+
+.order__desctop {
+  display: flex;
+
+  @media screen and(max-width: 768px) {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+
+  @media screen and(min-width: 1280px) {
+    display: flex;
+    margin-top: 75px;
+    margin-bottom: 48px;
+  }
 
 }
 
-.order__one {}
+.order-position-right {
+  display: block;
+  margin-left: 121px;
+}
+
 
 .order-title {
   font-family: 'Roboto';
@@ -74,14 +117,12 @@ textarea {
   line-height: 28px;
 
   color: #FFFFFF;
-  padding-top: 40px;
+  padding-top: 224px;
 
-  @media screen and(min-width: 480px) {
-    padding-top: 40px;
-  }
+  @media screen and(min-width: 480px) {}
 
   @media screen and(min-width: 768px) {
-    padding-top: 120px;
+    padding-top: 256px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -118,7 +159,9 @@ textarea {
 
   }
 
-  @media screen and(min-width: 1280px) {}
+  @media screen and(min-width: 1280px) {
+    margin-top: 0;
+  }
 }
 
 // .list-item {}
@@ -135,6 +178,7 @@ textarea {
 
   @media screen and(min-width: 1280px) {
     flex-wrap: wrap;
+    margin-top: 0;
   }
 }
 
@@ -145,7 +189,10 @@ textarea {
 
   @media screen and(min-width: 768px) {}
 
-  @media screen and(min-width: 1280px) {}
+  @media screen and(min-width: 1280px) {
+    margin-bottom: 0;
+    width: 387px;
+  }
 }
 
 .order-product-img {
@@ -173,7 +220,9 @@ textarea {
 
   @media screen and(min-width: 1280px) {
     display: flex;
-
+    margin-bottom: 40px;
+    padding-left: 0;
+    margin-top: 32px;
   }
 }
 
@@ -204,7 +253,7 @@ textarea {
   }
 
   @media screen and(min-width: 1280px) {
-    margin-left: 121px;
+    margin-left: 0;
   }
 }
 
@@ -256,7 +305,9 @@ textarea {
     gap: 24px;
   }
 
-  @media screen and(min-width: 1280px) {}
+  @media screen and(min-width: 1280px) {
+    margin-bottom: 0;
+  }
 }
 
 //.order-item {}
