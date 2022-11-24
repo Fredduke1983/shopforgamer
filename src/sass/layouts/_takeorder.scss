@@ -95,15 +95,22 @@
   line-height: 28px;
 
   color: #FFFFFF;
-  padding-top: 224px;
+  // padding-top: 224px;
 
   @media screen and(min-width: 768px) {
-    padding-top: 256px;
+    // padding-top: 256px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 56px;
     line-height: 66px;
+  }
+}
+
+.order-lines{
+  padding-top: 224px;
+  @media screen and(min-width: 768px) {
+      padding-top: 256px;
   }
 }
 

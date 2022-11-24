@@ -1,5 +1,5 @@
 .contacts {
-  padding-top: 104px;
+  // padding-top: 104px;
   background-image: url('/src/images/contact/background.png');
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
@@ -7,6 +7,15 @@
     background-image: url('/src/images/contact/backgroundx2.png');
   }
 }
+
+.contact-lines {
+  padding-top: 224px;
+
+  @media screen and(min-width: 768px) {
+    padding-top: 256px;
+  }
+}
+
 .contacts__title {
   margin-left: 102px;
   margin-bottom: 75px;
