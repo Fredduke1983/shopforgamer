@@ -19,8 +19,8 @@ section {
 
 .container {
   width: 100%;
-  padding-left: 17px;
-  padding-right: 18px;
+  padding-left: 16px;
+  padding-right: 16px;
   margin: 0 auto;
 
   // @include mobile {
@@ -29,6 +29,8 @@ section {
 
   @include tablet {
     width: 768px;
+    padding-left: 40px;
+    padding-right: 40px;
   }
 
   @include desktop {
