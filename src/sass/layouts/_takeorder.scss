@@ -1,43 +1,9 @@
-li {
-  list-style: none;
-  text-decoration: none;
-}
-
-label {
-  display: block;
-}
-
-textarea {
-  color: #979b9a;
-  font-weight: 300;
-  font-size: 16px;
-  line-height: 18px;
-}
-
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
-
-.order-container {
-  margin-right: auto;
-  margin-left: auto;
-  padding-left: 40px;
-  padding-right: 40px;
-}
-
 .order__container {
 
   margin-left: auto;
   margin-right: auto;
+  padding-left: 40px;
+  padding-right: 40px;
 
   @media screen and(min-width: 480px) {
     width: 480px;
@@ -67,28 +33,6 @@ textarea {
   @media screen and(min-width: 1280px) {
     width: 100%;
     background-image: url(/src/images/order/background/Background_1.jpg);
-  }
-}
-
-
-.order__one {
-  display: inline-block;
-  justify-content: center;
-  margin-left: auto;
-  margin-left: auto;
- 
-  @media screen and(min-width: 1280px) {
-    display: none;
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
   }
 }
 
@@ -175,6 +119,8 @@ textarea {
   }
 }
 
+
+
 .order-product {
   margin-top: 24px;
 
@@ -184,10 +130,10 @@ textarea {
   }
 
   @media screen and(min-width: 1280px) {
-    flex-wrap: wrap;
-    margin-top: 0;
+    display: none;
   }
 }
+
 
 .order-product-img-hero {
   margin-bottom: 24px;
@@ -198,10 +144,7 @@ textarea {
   }
 }
 
-.order-product-img {
 
- 
-}
 
 .order-sale-list {
   display: flex;
@@ -392,13 +335,17 @@ textarea {
 }
 
 .order__message-input {
+  background-color: transparent;
+  color: #979b9a;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 18px;
+  resize: none;
+
   width: 100%;
   height: 95px;
 
-  background-color: transparent;
-
   border: 1px solid #86E543;
-  border-radius: 0px;
 
   @media screen and(min-width: 768px) {
     width: 589px;
