@@ -167,3 +167,22 @@
 	line-height: 1;
 	color: #86e543;
 }
+
+.accessories-points {
+}
+.accessories-point {
+	display: flex;
+	justify-content: center;
+	margin-top: 4px;
+}
+.accessories-pages__main {
+	display: none;
+	@media screen and (min-width: 1280px) {
+		display: block;
+	}
+}
+.accessories-pages__acc {
+	@media screen and (min-width: 1280px) {
+		display: none;
+	}
+}
