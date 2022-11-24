@@ -1,0 +1,23 @@
+<svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<symbol id="icon-acets-t" viewBox="0 0 336 32">
+<path fill="#fff" style="fill: var(--color1, #fff)" d="M16 0h48c8.837 0 16 7.163 16 16s-7.163 16-16 16h-48c-8.837 0-16-7.163-16-16s7.163-16 16-16z"></path>
+<path fill="#fff" style="fill: var(--color1, #fff)" d="M144 16c0 8.837-7.163 16-16 16s-16-7.163-16-16c0-8.837 7.163-16 16-16s16 7.163 16 16z"></path>
+<path fill="#fff" style="fill: var(--color1, #fff)" d="M208 16c0 8.837-7.163 16-16 16s-16-7.163-16-16c0-8.837 7.163-16 16-16s16 7.163 16 16z"></path>
+<path fill="#fff" style="fill: var(--color1, #fff)" d="M272 16c0 8.837-7.163 16-16 16s-16-7.163-16-16c0-8.837 7.163-16 16-16s16 7.163 16 16z"></path>
+<path fill="#fff" style="fill: var(--color1, #fff)" d="M336 16c0 8.837-7.163 16-16 16s-16-7.163-16-16c0-8.837 7.163-16 16-16s16 7.163 16 16z"></path>
+</symbol>
+<symbol id="icon-acc-ets-m" viewBox="0 0 384 32">
+<path fill="#fff" style="fill: var(--color1, #fff)" d="M112 0h-96c-8.837 0-16 7.163-16 16s7.163 16 16 16h96c8.837 0 16-7.163 16-16s-7.163-16-16-16z"></path>
+<path fill="#fff" style="fill: var(--color1, #fff)" d="M192 16c0 8.837-7.163 16-16 16s-16-7.163-16-16c0-8.837 7.163-16 16-16s16 7.163 16 16z"></path>
+<path fill="#fff" style="fill: var(--color1, #fff)" d="M256 16c0 8.837-7.163 16-16 16s-16-7.163-16-16c0-8.837 7.163-16 16-16s16 7.163 16 16z"></path>
+<path fill="#fff" style="fill: var(--color1, #fff)" d="M320 16c0 8.837-7.163 16-16 16s-16-7.163-16-16c0-8.837 7.163-16 16-16s16 7.163 16 16z"></path>
+<path fill="#fff" style="fill: var(--color1, #fff)" d="M384 16c0 8.837-7.163 16-16 16s-16-7.163-16-16c0-8.837 7.163-16 16-16s16 7.163 16 16z"></path>
+</symbol>
+<symbol id="icon-acc-ets-d" viewBox="0 0 208 32">
+<path fill="#fff" style="fill: var(--color1, #fff)" d="M16 0h48c8.837 0 16 7.163 16 16s-7.163 16-16 16h-48c-8.837 0-16-7.163-16-16s7.163-16 16-16z"></path>
+<path fill="#fff" style="fill: var(--color1, #fff)" d="M144 16c0 8.837-7.163 16-16 16s-16-7.163-16-16c0-8.837 7.163-16 16-16s16 7.163 16 16z"></path>
+<path fill="#fff" style="fill: var(--color1, #fff)" d="M208 16c0 8.837-7.163 16-16 16s-16-7.163-16-16c0-8.837 7.163-16 16-16s16 7.163 16 16z"></path>
+</symbol>
+</defs>
+</svg>
