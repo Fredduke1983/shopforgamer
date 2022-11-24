@@ -11,10 +11,21 @@
   <body class="order__background">
     <include src="./partials/main/header.html"></include>
 
-    <section class="order-container order__container">
-      <h2 class="order-title">Take order</h2>
-      <div class="order__one">
-        <p class="order-text list-item">Xiberia K9 PRO PC Headset</p>
+
+    <section class="order__container">
+      <div class="container-lines">
+        <div class="line-left">
+          <h1 class="lines-title-name">Take order</h1>
+          <div class="line-b1"></div>
+          <div class="line-b2"></div>
+        </div>
+        <div class="line-right">
+          <div class="line-b3"></div>
+          <div class="line-b4"></div>
+        </div>
+      </div>
+      <p class="order-text list-item">Xiberia K9 PRO PC Headset</p>
+
         <div class="order-product">
           <picture>
             <source
@@ -429,17 +440,16 @@
           </div>
         </div>
         <div class="order-btn">
-          <button type="button" class="order__button">Buy it now</button>
-          <button
-            hreef="/src/partials/order/tomodal2.html"
-            type="button"
-            class="order__button-add"
-          >
-            ADD TO CART
-          </button>
+
+          <button data-modal-open type="button" class="order__button">Buy it now</button>
+          <button data-modal-open type="button" class="order__button-add">ADD TO CART</button>
+
         </div>
       </section>
     </section>
+    <include src="./partials/order/tomodal1.html"></include>
+    <include src="./partials/order/tomodal2.html"></include>
     <include src="./partials/main/footer.html"></include>
+    <script src="/src/modal.js"></script>
   </body>
 </html>
