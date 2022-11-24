@@ -1,6 +1,5 @@
 .hero {
   padding-top: 104px;
-  position: relative;
   height: 601px;
   background-color: #01383a;
 
@@ -13,34 +12,42 @@
   @media screen and(min-width: 768px) {
     padding-top: 136px;
     height: 860px;
-    background-position: center;
+    background-position: top;
   }
 }
 
 .overlay {
+  position: relative;
+  display: flex;
+}
+
+.thumb {
   position: absolute;
   top: 0;
-  height: 100%;
-  padding-top: 104px;
-  background-image: url(/src/images/hero/bg-mob.png);
-  background-blend-mode: luminosity;
-  width: 100%;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: right;
-  padding: 104px 0 25px 16px;
+  right: 0;
+  transform: translateY(-50px);
+  mix-blend-mode: luminosity;
+  width: 304px;
+  height: 472px;
 
   @media screen and(min-width: 768px) {
-    padding-top: 136px;
-    background-image: url(/src/images/hero/bg-tablet.png);
+    width: 379px;
+    height: 616px;
+    top: 33px;
+    right: 0;
   }
   @media screen and(min-width: 1280px) {
-    background-image: url(/src/images/hero/bg-desktop.png);
+    width: 668px;
+    height: 652px;
+    top: 0;
+    right: 78px;
   }
 }
 
 .wrap {
-  @media screen and (max-width: 767px) {
+  position: absolute;
+
+  @media screen and (min-width: 320px) and (max-width: 767px) {
     margin-left: auto;
     margin-right: auto;
   }
@@ -59,7 +66,7 @@
   line-height: 1.19;
   text-align: center;
   color: #fff;
-  max-width: 247px;
+  width: 247px;
   margin-bottom: 25px;
   @media screen and (max-width: 767px) {
     margin-left: auto;
@@ -71,13 +78,13 @@
     line-height: 1.18;
     margin-bottom: 94px;
     text-align: start;
-    max-width: 388px;
+    min-width: 388px;
   }
   @media screen and(min-width: 1280px) {
     font-size: 64px;
     line-height: 1.17;
 
-    max-width: 436px;
+    min-width: 436px;
     margin-bottom: 40px;
   }
 }
@@ -97,6 +104,7 @@
   color: #01383a;
   padding: 16px 20px;
   border: none;
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   @media screen and (max-width: 767px) {
     margin-left: auto;
     margin-right: auto;
@@ -106,5 +114,9 @@
     width: 306px;
     height: 70px;
     font-size: 32px;
+  }
+  &:hover,
+  &:focus {
+    box-shadow: 0 8px 20px #86e54380, 0 4px 10px #ffffff1a;
   }
 }
