@@ -45,18 +45,19 @@
 }
 
 .wrap {
-  position: absolute;
-
-  @media screen and (min-width: 320px) and (max-width: 767px) {
-    margin-left: auto;
-    margin-right: auto;
-  }
-  padding: 180px 37px 203px 36px;
-  // @media screen and(min-width: 768px) {
-  //   padding: 154px 340px 372px 40px;
+  // position: relative;
+  margin: 0 auto;
+  padding-top: 180px;
+  // @media screen and (min-width: 320px) and (max-width: 767px) {
+  //   margin-left: auto;
+  //   margin-right: auto;
   // }
+  @media screen and(min-width: 768px) {
+    margin: 0;
+    padding-top: 154px;
+  }
   @media screen and(min-width: 1280px) {
-    padding: 180px 702px 319px 142px;
+    padding-top: 182px;
   }
 }
 

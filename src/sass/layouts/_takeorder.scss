@@ -1,5 +1,4 @@
 .order__container {
-
   margin-left: auto;
   margin-right: auto;
   padding-left: 40px;
@@ -11,7 +10,6 @@
 
   @media screen and(min-width: 768px) {
     width: 768px;
-
   }
 
   @media screen and(min-width: 1280px) {
@@ -19,9 +17,7 @@
   }
 }
 
-
 .order__background {
-
   width: 100%;
   background-image: url(/src/images/order/background/Background_1-mob.jpg);
 
@@ -87,30 +83,30 @@
   margin-left: 121px;
 }
 
-.lines-title-name {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 600;
-  font-size: 24px;
-  line-height: 28px;
+// .lines-title-name {
+//   font-family: 'Roboto';
+//   font-style: normal;
+//   font-weight: 600;
+//   font-size: 24px;
+//   line-height: 28px;
 
-  color: #FFFFFF;
-  // padding-top: 224px;
+//   color: #FFFFFF;
+//   // padding-top: 224px;
 
-  @media screen and(min-width: 768px) {
-    // padding-top: 256px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 56px;
-    line-height: 66px;
-  }
-}
+//   @media screen and(min-width: 768px) {
+//     // padding-top: 256px;
+//     font-family: 'Roboto';
+//     font-style: normal;
+//     font-weight: 500;
+//     font-size: 56px;
+//     line-height: 66px;
+//   }
+// }
 
-.order-lines{
+.order-lines {
   padding-top: 224px;
   @media screen and(min-width: 768px) {
-      padding-top: 256px;
+    padding-top: 256px;
   }
 }
 
@@ -121,7 +117,7 @@
   font-size: 32px;
   line-height: 38px;
 
-  color: #FFFFFF;
+  color: #ffffff;
 
   margin-top: 35px;
   margin-bottom: 16px;
@@ -139,7 +135,6 @@
     font-size: 56px;
     line-height: 66px;
     margin-bottom: 24px;
-
   }
 
   @media screen and(min-width: 1280px) {
@@ -147,8 +142,6 @@
     margin-bottom: 0;
   }
 }
-
-
 
 .order-sale-list {
   display: flex;
@@ -173,7 +166,6 @@
 }
 
 .order-sale-up {
-
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 600;
@@ -182,19 +174,18 @@
 
   text-decoration-line: line-through;
 
-  color: #8D9289;
+  color: #8d9289;
 
-  @media screen and(min-width: 480px) {}
+  @media screen and(min-width: 480px) {
+  }
 
   @media screen and(min-width: 768px) {
-
     font-weight: 500;
     font-size: 24px;
 
     text-decoration-line: line-through;
 
-    color: #8D9289;
-
+    color: #8d9289;
   }
 
   @media screen and(min-width: 1280px) {
@@ -210,7 +201,7 @@
   line-height: 100%;
   margin-left: auto;
 
-  color: #86E543;
+  color: #86e543;
 
   margin-bottom: 16px;
 
@@ -226,7 +217,7 @@
     font-size: 48px;
     line-height: 100%;
 
-    color: #86E543;
+    color: #86e543;
   }
 
   @media screen and(min-width: 1280px) {
@@ -262,16 +253,14 @@
   font-size: 24px;
   line-height: 28px;
 
-  color: #86E543;
+  color: #86e543;
 
   @media screen and(min-width: 768px) {
-
     font-weight: 500;
     font-size: 36px;
     line-height: 42px;
 
-    color: #86E543;
-
+    color: #86e543;
   }
 }
 
@@ -314,7 +303,6 @@
 }
 
 .order__cont-mod {
-
   @media screen and(min-width: 768px) {
     justify-content: center;
     display: flex;
@@ -348,7 +336,7 @@
   width: 100%;
   height: 95px;
 
-  border: 1px solid #86E543;
+  border: 1px solid #86e543;
 
   @media screen and(min-width: 768px) {
     width: 589px;
@@ -373,12 +361,11 @@
 }
 
 .order__button {
-
   width: 173px;
   height: 51px;
 
   display: block;
-  background: #86E543;
+  background: #86e543;
   border-radius: 16px;
 
   font-family: 'Roboto';
@@ -389,25 +376,22 @@
 
   text-transform: uppercase;
 
-  color: #01383A;
+  color: #01383a;
 
   @media screen and(min-width: 480px) {
     width: 306px;
     font-size: 32px;
     line-height: 38px;
   }
-
 }
 
-
 .order__button-add {
-
   width: 173px;
   height: 51px;
   left: 73px;
   top: 1293px;
 
-  border: 1px solid #86E543;
+  border: 1px solid #86e543;
   border-radius: 16px;
 
   font-family: 'Roboto';
@@ -420,15 +404,12 @@
 
   text-transform: uppercase;
 
-  color: #86E543;
-
+  color: #86e543;
 
   @media screen and(min-width: 480px) {
-
     width: 306px;
     font-weight: 700;
     font-size: 32px;
     line-height: 38px;
   }
-
 }
