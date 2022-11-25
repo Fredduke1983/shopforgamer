@@ -68,18 +68,6 @@
 }
 
 .blog__title {
-  // font-weight: 600;
-  // font-size: 24px;
-  // line-height: 1.166;
-  // color: #ffffff;
-  // margin-bottom: 31px;
-  // margin-left: 16px;
-
-  // @media screen and (min-width: 768px) {
-  //   font-size: 56px;
-  //   line-height: 1.17;
-  // }
-
   margin-top: 40px;
   margin-left: 102px;
   margin-bottom: 75px;
@@ -224,7 +212,8 @@
   @include tablet {
     font-size: 24px;
     line-height: 1;
-    width: 248px;
+    // width: 248px;
+    width: 261px;
   }
 
   @include desktop {
@@ -295,4 +284,21 @@
 .desk {
   top: 192px;
   // margin-top: 24px;
+}
+
+.accessories-point {
+  display: flex;
+  justify-content: center;
+  margin-top: 4px;
+}
+.accessories-pages__main {
+  display: none;
+  @media screen and (min-width: 1280px) {
+    display: block;
+  }
+}
+.accessories-pages__acc {
+  @media screen and (min-width: 1280px) {
+    display: none;
+  }
 }
