@@ -8,12 +8,14 @@
 	border-style: solid;
 	border-color: #86e543;
 }
+
 .swiper-title1 {
 	position: absolute;
 	max-width: 257px;
+	height: 56px;
 	left: 24px;
-	bottom: 37px;
-	font-weight: 600;
+	bottom: 38px;
+	font-family: "Roboto Medium";
 	font-size: 24px;
 	line-height: 1.166;
 	text-align: left;
@@ -24,13 +26,15 @@
 	background-clip: text;
 	//text-fill-color: transparent;
 	@media screen and (min-width: 768px) {
-		max-width: 596px;
+		max-width: 519px;
+		height: 132px;
 		font-size: 56px;
 		line-height: 1.178;
 		bottom: 14px;
 		left: 41px;
 	}
 	@media screen and (min-width: 1280px) {
+		max-width: 596px;
 		bottom: 49px;
 		left: 345px;
 	}
@@ -38,12 +42,13 @@
 
 .swiper-title2 {
 	position: absolute;
-	max-width: 330px;
-	left: 37px;
-	bottom: 14px;
-	font-weight: 600;
+	max-width: 257px;
+	height: 56px;
+	left: 24px;
+	bottom: 38px;
+	font-family: "Roboto Medium";
 	font-size: 24px;
-	line-height: 1.178;
+	line-height: 1.166;
 	text-align: left;
 
 	background: linear-gradient(270deg, #03fe8f 4.61%, #ebdcff 57.91%, #ff98f3 92.2%);
@@ -56,13 +61,15 @@
 		text-transform: uppercase;
 	}
 	@media screen and (min-width: 768px) {
-		max-width: 591px;
+		max-width: 526px;
 		font-size: 56px;
+		height: 123px;
 		line-height: 1.178;
 		bottom: 14px;
-		left: 37px;
+		left: 41px;
 	}
 	@media screen and (min-width: 1280px) {
+		max-width: 530px;
 		left: 49px;
 		bottom: 49px;
 	}
@@ -70,12 +77,13 @@
 
 .swiper-title3 {
 	position: absolute;
-	max-width: 400px;
-	left: 37px;
-	bottom: 14px;
-	font-weight: 600;
+	max-width: 234px;
+	height: 56px;
+	left: 24px;
+	bottom: 38px;
+	font-family: "Roboto Medium";
 	font-size: 24px;
-	line-height: 1.178;
+	line-height: 1.166;
 	text-align: left;
 
 	background: linear-gradient(270deg, #ffffff 13.26%, #693cf9 60.87%, #f475eb 107.89%);
@@ -84,15 +92,17 @@
 	background-clip: text;
 	//text-fill-color: transparent;
 	@media screen and (min-width: 768px) {
-		max-width: 596px;
+		max-width: 551px;
 		font-size: 56px;
-		line-height: 1.357;
+		height: 132px;
+		line-height: 1.178;
 		bottom: 14px;
 		left: 41px;
 	}
 	@media screen and (min-width: 1280px) {
-		left: 56px;
-		bottom: 55px;
+		max-width: 557px;
+		left: 49px;
+		bottom: 49px;
 	}
 }
 .swiper-horizontal .swiper-pagination-bullets .swiper-pagination-bullet,
