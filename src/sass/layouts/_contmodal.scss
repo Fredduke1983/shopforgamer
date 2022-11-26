@@ -8,9 +8,6 @@
 }
 
 .modal {
-  @media screen and (max-width: 768px) {
-    overflow: scroll;
-  }
   @media screen and (min-width: 768px) {
     max-width: 688px;
     max-height: 500px;
