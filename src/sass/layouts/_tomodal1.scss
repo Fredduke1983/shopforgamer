@@ -13,7 +13,7 @@
     max-height: 500px;
   }
 
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1280px) {
     max-width: 768px;
     max-height: 533px;
   }
@@ -37,10 +37,10 @@
 }
 
 .modal-close-mob {
-  @media screen and (min-width: 768px) {
-    display: none;
-    max-width: inherit;
-  }
+  // @media screen and (min-width: 768px) {
+  //   display: none;
+  //   max-width: inherit;
+  // }
 
   border: 1.5px solid #86e543;
   background-color: #01383a;
@@ -48,6 +48,11 @@
   position: absolute;
   right: 20px;
   top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 40px;
 }
 
 .modal-close-tab {
@@ -62,6 +67,11 @@
   position: absolute;
   right: 20px;
   top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 31px;
+  width: 31px;
 }
 
 .modal-text {
@@ -74,7 +84,7 @@
     line-height: 1.17;
   }
 
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1280px) {
     font-size: 64px;
     line-height: 1.17;
   }
