@@ -357,7 +357,50 @@
         <h3 class="order__form-title">CONTACT US</h3>
         <div class="order__cont-form">
           <div class="order__cont">
-            <label for="name" class="order__label-name">
+            <input
+              class="order__input"
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Name"
+            />
+            <input
+              class="order__input"
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Email"
+            />
+            <div class="select-wrapper">
+              <select
+                class="order__input js-example-basic-single"
+                name="color"
+                id="color"
+              >
+                <option value="Color Option">Color Option</option>
+                <option value="K9D Black Orange">K9D Black Orange</option>
+                <option value="K9D Silver Gray">K9D Silver Gray</option>
+                <option value="K9U White Blue">K9D Black Orange</option>
+              </select>
+            </div>
+            <div class="select-wrapper">
+              <select class="order__input" name="quantity" id="quantity">
+                <option value="Quantity">Quantity</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+              </select>
+            </div>
+            <div class="select-wrapper">
+              <select class="order__input" name="payment" id="payment">
+                <option value="Payment">Payment</option>
+                <option value="visa">Visa</option>
+                <option value="mastercard">Mastercard</option>
+                <option value="googlepay">Googlepay</option>
+              </select>
+            </div>
+
+            <!-- <label for="name" class="order__label-name">
               <input
                 class="order__form-input"
                 type="text"
@@ -419,7 +462,7 @@
               <option>Google Pay</option>
               <option>Aple Pay</option>
               <option>Binance Pay</option>
-            </datalist>
+            </datalist> -->
           </div>
           <div class="order__cont-mod">
             <form>
