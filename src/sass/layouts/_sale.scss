@@ -13,9 +13,6 @@
   @media screen and (min-width: 480px) {
     width: 480px;
     margin: 0 auto;
-    // padding-left: 17px;
-    // padding-right: 18px;
-    // padding-bottom: 48px;
   }
   @media screen and (min-width: 768px) {
     width: 768px;
@@ -36,7 +33,7 @@
 }
 
 .sale-title {
-  font-weight: 600;
+  font-weight: 500;
   font-size: 24px;
   line-height: 1.17;
   color: #ffffff;
@@ -46,11 +43,7 @@
     font-size: 56px;
     line-height: 1.18;
     padding-left: 62px;
-    // margin-bottom: 4px;
   }
-  // @media screen and (min-width: 1280px) {
-  //   margin-bottom: 43px;
-  // }
 }
 
 .sale-list {
@@ -64,7 +57,6 @@
     gap: 38px;
     row-gap: 32px;
     justify-content: center;
-    // width: calc((100% - 38px) / 2);
   }
   @media screen and (min-width: 1280px) {
     gap: 20px;
@@ -78,13 +70,7 @@
   @media screen and (max-width: 767px) {
     margin-bottom: 24px;
   }
-  // @media screen and (min-width: 768px) {
-  //   margin-bottom: 24px;
-  // }
-  // @media screen and (min-width: 1280px) {
-  //   margin-bottom: 24px;
-  // }
-}
+ }
 
 .sale-img {
   width: 100%;
@@ -94,13 +80,12 @@
 }
 
 .product-title {
-  font-weight: 600;
+  font-weight: 500;
   font-size: 22px;
   line-height: 1.18;
   color: #86e543;
   max-width: 261px;
   padding-left: 8px;
-  // padding-right: 16px;
   margin-bottom: 8px;
 }
 
@@ -112,7 +97,7 @@
 }
 
 .old-price {
-  font-weight: 600;
+  font-weight: 500;
   font-size: 14px;
   line-height: 1;
   text-decoration-line: line-through;
@@ -120,7 +105,7 @@
 }
 
 .new-price {
-  font-weight: 600;
+  font-weight: 500;
   font-size: 20px;
   line-height: 1;
   color: #86e543;
