@@ -45,9 +45,11 @@
 }
 
 .wrap {
-  // position: relative;
+  position: relative;
+  z-index: 1;
   margin: 0 auto;
   padding-top: 180px;
+
   // @media screen and (min-width: 320px) and (max-width: 767px) {
   //   margin-left: auto;
   //   margin-right: auto;

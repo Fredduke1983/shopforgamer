@@ -8,6 +8,9 @@
 }
 
 .modal-box {
+  @media screen and (max-width: 768px) {
+    overflow: scroll;
+  }
   @media screen and (min-width: 768px) {
     max-width: 688px;
     max-height: 500px;
@@ -74,17 +77,17 @@
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 600;
-
   @media screen and (min-width: 767.9px) {
     font-size: 56px;
     line-height: 1.17;
   }
 
+
   @media screen and (min-width: 1280px) {
+
     font-size: 64px;
     line-height: 1.17;
   }
-
   font-size: 24px;
   line-height: 1.16;
   text-align: center;
@@ -104,12 +107,10 @@
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
-
   @media screen and (min-width: 767.9px) {
     font-size: 32px;
     line-height: 1.18;
   }
-
   font-size: 16px;
   line-height: 1.18;
   text-align: right;
@@ -118,7 +119,6 @@
   margin: 0 auto;
   transition: box-shadow 200ms linear;
 }
-
 .modal-button:hover {
   box-shadow: 0px 4px 10px rgba(97, 162, 58, 0.2),
     0px 4px 50px rgba(94, 236, 54, 0.5), 0px 4px 4px rgba(17, 168, 26, 0.2);

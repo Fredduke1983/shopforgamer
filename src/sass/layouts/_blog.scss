@@ -40,7 +40,12 @@
     }
   }
 }
-
+.blog-lines {
+  padding-top: 40px;
+  @media screen and(min-width:768px) {
+    padding-top: 120px;
+  }
+}
 .blog .container {
   @media screen and(max-width:479px) {
     padding-left: 0;
@@ -50,7 +55,6 @@
 
 .blog__img img {
   display: block;
-  // width: 100%;
   max-width: 480px;
   height: auto;
   margin-top: 16px;
@@ -128,31 +132,6 @@
   text-decoration: none;
 }
 
-.blog__guide {
-  font-weight: 600;
-  font-size: 24px;
-  line-height: 1.166;
-  color: #ffffff;
-  margin-bottom: 16px;
-  // margin-left: 16px;
-  @media screen and(max-width:479px) {
-    padding-left: 17px;
-    padding-right: 18px;
-  }
-
-  @include tablet {
-    font-size: 56px;
-    line-height: 1;
-  }
-
-  @include desktop {
-    position: absolute;
-    width: 692px;
-    left: 508px;
-    top: 0px;
-  }
-}
-
 .blog__description {
   margin-top: 8px;
   @media screen and(max-width:479px) {
@@ -172,7 +151,6 @@
     left: 508px;
     top: 164px;
     margin-left: 0;
-    // bottom: 174px;
   }
 }
 
@@ -205,7 +183,6 @@
   font-size: 16px;
   line-height: 100%;
   color: #8d9289;
-  // margin-left: 16px;
   margin-top: 8px;
   margin-bottom: auto;
 
@@ -242,11 +219,31 @@
     position: absolute;
     width: 693px;
     left: 507px;
-
-    // bottom: 40px;
     top: 212px;
-    // width: auto;
-    // margin-right: 0;
+  }
+}
+
+.blog__guide {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.166;
+  color: #ffffff;
+  margin-bottom: 16px;
+  @media screen and(max-width:479px) {
+    padding-left: 17px;
+    padding-right: 18px;
+  }
+
+  @include tablet {
+    font-size: 56px;
+    line-height: 1;
+  }
+
+  @include desktop {
+    position: absolute;
+    width: 692px;
+    left: 508px;
+    top: 0px;
   }
 }
 
@@ -275,30 +272,26 @@
     position: absolute;
     top: 340px;
     right: 0;
-    // bottom: 0;
-
-    // left: 1077px;
   }
 }
 
 .desk {
   top: 192px;
-  // margin-top: 24px;
 }
 
-.accessories-point {
+.blog__point {
   display: flex;
   justify-content: center;
-  margin-top: 4px;
-}
-.accessories-pages__main {
-  display: none;
-  @media screen and (min-width: 1280px) {
-    display: block;
+  margin-top: 48px;
+  // margin-bottom: 48px;
+
+  @include tablet {
+    margin-top: 35px;
+    // margin-bottom: 120px;
   }
-}
-.accessories-pages__acc {
-  @media screen and (min-width: 1280px) {
-    display: none;
+
+  @include desktop {
+    margin-top: 48px;
+    // margin-bottom: 120px;
   }
 }

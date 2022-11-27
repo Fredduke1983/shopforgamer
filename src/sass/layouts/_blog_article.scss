@@ -54,15 +54,16 @@
   }
 }
 .article__picture {
-  display: block;
-
   @include max-mobile {
-    margin-bottom: 20px;
-    max-width: 100%;
-    height: auto;
+    // margin-bottom: 20px;
+    // max-width: 100%;
+    // height: auto;
+    display: none;
   }
-  @include max-tablet {
-    display: inline-block;
+
+  display: block;
+  @include tablet {
+    display: block;
     margin-right: 40px;
     width: 387px;
   }
@@ -71,6 +72,12 @@
     margin-right: 121px;
     height: 336px;
     width: 387px;
+  }
+}
+
+.article__picture-mob {
+  @include tablet {
+    display: none;
   }
 }
 
@@ -165,4 +172,10 @@
   flex-wrap: wrap;
   flex-direction: column;
   gap: 24px;
+}
+.article-title {
+  white-space: normal;
+  width: 288px;
+  font-size: 24px;
+  margin: 0;
 }
