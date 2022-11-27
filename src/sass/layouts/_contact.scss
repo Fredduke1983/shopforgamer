@@ -1,5 +1,5 @@
 .contacts {
-  // width: 100%;
+  width: 100%;
   background-image: url('/src/images/contact/background.png');
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
@@ -113,9 +113,6 @@
   }
 }
 
-.contacts__data {
-}
-
 .contacts__form {
   @media screen and (min-width: 768px) {
     max-width: 592px;
@@ -138,12 +135,6 @@
     font-size: 36px;
     margin-bottom: 48px;
   }
-}
-
-.contacts__form-name {
-}
-
-.contacts__label-name {
 }
 
 .contacts__form-input {
