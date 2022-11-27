@@ -1,17 +1,26 @@
 .blog-article {
-  padding-top: 144px;
+  padding-top: 104px;
+  @media screen and (min-width: 768px) {
+    padding-top: 136px;
+  }
+
   margin: 0 auto;
   width: 100%;
   background-image: url(/src/images/blog-article/Blog_article_mobile.jpg);
 
   @include tablet {
     background-image: url(/src/images/blog-article/Blog_article_tablet-2.jpg);
-    padding-top: 256px;
   }
 
   @include desktop {
     background-image: url(/src/images/blog-article/Blog_article-2.jpg);
-    padding-top: 256px;
+  }
+}
+
+.article-lines {
+  padding-top: 40px;
+  @media screen and(min-width: 768px) {
+    padding-top: 120px;
   }
 }
 
