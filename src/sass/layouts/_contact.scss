@@ -1,4 +1,9 @@
 .contacts {
+  padding-top: 104px;
+  @media screen and (min-width: 768px) {
+    padding-top: 136px;
+  }
+
   width: 100%;
   background-image: url('/src/images/contact/background.png');
   @media (min-device-pixel-ratio: 2),
@@ -26,7 +31,10 @@
 }
 
 .contact-lines {
-  padding-top: 144px;
+  padding-top: 40px;
+  @media screen and(min-width: 768px) {
+    padding-top: 120px;
+  }
 }
 
 .contacts__title {
@@ -178,9 +186,9 @@
     height: 120px;
     margin-bottom: 34px;
   }
-   @media screen and (min-width: 1280px) {
+  @media screen and (min-width: 1280px) {
     margin-bottom: 46px;
-   }
+  }
 }
 
 .contacts__button {
