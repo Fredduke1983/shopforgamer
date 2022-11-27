@@ -15,7 +15,7 @@
     max-width: 688px;
     max-height: 500px;
   }
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1280px) {
     max-width: 768px;
     max-height: 533px;
   }
@@ -48,6 +48,11 @@
   position: absolute;
   right: 20px;
   top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 40px;
 }
 
 .modal-close-tab {
@@ -61,6 +66,11 @@
   position: absolute;
   right: 20px;
   top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 31px;
+  width: 31px;
 }
 
 .modal-text {
@@ -71,7 +81,10 @@
     font-size: 56px;
     line-height: 1.17;
   }
-  @media screen and (min-width: 1200px) {
+
+
+  @media screen and (min-width: 1280px) {
+
     font-size: 64px;
     line-height: 1.17;
   }
