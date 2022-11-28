@@ -117,7 +117,6 @@
 
   @include tablet {
     display: flex;
-    // align-items: flex-end;
     flex-wrap: wrap;
     margin-top: auto;
   }
@@ -164,7 +163,6 @@
 
   @include tablet {
     margin-bottom: 32px;
-    // margin-left: 16px;
     font-size: 24px;
     line-height: 1;
     width: 248px;
@@ -179,7 +177,6 @@
 
 .blog__update {
   font-weight: 600;
-  padding: auto;
   font-size: 16px;
   line-height: 100%;
   color: #8d9289;
@@ -189,7 +186,6 @@
   @include tablet {
     font-size: 24px;
     line-height: 1;
-    // width: 248px;
     width: 261px;
   }
 
@@ -207,7 +203,7 @@
   line-height: 1.187;
   color: #ffffff;
   margin-top: 16px;
-  // margin-left: 16px;
+
   @media screen and(max-width:479px) {
     padding-left: 17px;
     padding-right: 18px;
@@ -283,15 +279,12 @@
   display: flex;
   justify-content: center;
   margin-top: 48px;
-  // margin-bottom: 48px;
 
   @include tablet {
     margin-top: 35px;
-    // margin-bottom: 120px;
   }
 
   @include desktop {
     margin-top: 48px;
-    // margin-bottom: 120px;
   }
 }
