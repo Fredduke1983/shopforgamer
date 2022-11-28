@@ -9,35 +9,10 @@
   padding-top: 104px;
 
   background-image: url(/src/images/blog/bg.jpg);
-
-  @media screen and (min-width: 480px) {
-    background-image: url(/src/images/blog/bg-mob-1x.jpg);
-    @media (min-device-pixel-ratio: 2),
-      (min-resolution: 192dpi),
-      (min-resolution: 2dppx) {
-      background-image: url(/src/images/blog/bg-mob-2x.jpg);
-    }
-  }
-
-  @media screen and (min-width: 768px) {
-    max-width: 1280px;
-    padding-top: 136px;
-    background-image: url(/src/images/blog/bg-tab-1x.jpg);
-    @media (min-device-pixel-ratio: 2),
-      (min-resolution: 192dpi),
-      (min-resolution: 2dppx) {
-      background-image: url(/src/images/blog/bg-tab-2x.jpg);
-    }
-  }
-
-  @media screen and (min-width: 1280px) {
-    max-width: 1600px;
-    background-image: url(/src/images/blog/bg-des-1x.jpg);
-    @media (min-device-pixel-ratio: 2),
-      (min-resolution: 192dpi),
-      (min-resolution: 2dppx) {
-      background-image: url(/src/images/blog/bg-des-2x.jpg);
-    }
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    background-image: url(/src/images/blog/bg.jpg);
   }
 }
 .blog-lines {
