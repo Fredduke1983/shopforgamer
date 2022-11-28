@@ -1,39 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Take order</title>
-    <link rel="stylesheet" href="/src/sass/index.scss" />
-    <script type="module" src="/src/index.js"></script>
-  </head>
 
-  <body class="order__background">
-    <include src="./partials/main/header.html"></include>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Take order</title>
+  <link rel="stylesheet" href="/src/sass/index.scss" />
+  <script type="module" src="/src/index.js"></script>
+</head>
 
-    <section class="order">
-      <div class="container-lines order-lines">
-        <div class="line-left">
-          <h1 class="lines-title-name">Take order</h1>
-          <div class="line-b1"></div>
-          <div class="line-b2"></div>
-        </div>
-        <div class="line-right">
-          <div class="line-b3"></div>
-          <div class="line-b4"></div>
-        </div>
+<body class="order__background">
+  <include src="./partials/main/header.html"></include>
+
+  <section class="order">
+    <div class="container-lines order-lines">
+      <div class="line-left">
+        <h1 class="lines-title-name">Take order</h1>
+        <div class="line-b1"></div>
+        <div class="line-b2"></div>
       </div>
-      <div class="order-product container">
-        <p class="order-text list-item">Xiberia K9 PRO PC Headset</p>
-        <picture>
-          <source
-            srcset="
+      <div class="line-right">
+        <div class="line-b3"></div>
+        <div class="line-b4"></div>
+      </div>
+    </div>
+    <div class="order-product container">
+      <p class="order-text list-item">Xiberia K9 PRO PC Headset</p>
+      <picture>
+        <source srcset="
               /src/images/order/images/desk/Rectangle1-desk-x1.jpg 1x,
               /src/images/order/images/desk/Rectangle1-desk-x2.jpg 2x
-            "
-            media="(max-width:1279px)"
-          />
-          <!-- <source
+            " media="(max-width:1279px)" />
+        <!-- <source
             srcset="
               /src/images/order/images/tab/Rectangle1-tab-x1.jpg 1x,
               /src/images/order/images/tab/Rectangle1-tab-x2.jpg 2x
@@ -47,6 +45,7 @@
             "
             media="(min-width:480px)"
           /> -->
+
           <img
             class="order-product-img-hero"
             src="/src/images/order/images/Rectangle-4279.jpg"
@@ -189,12 +188,11 @@
         <picture>
           <source
             srcset="
+
               /src/images/order/images/desk/Rectangle1-desk-x1.jpg 1x,
               /src/images/order/images/desk/Rectangle1-desk-x2.jpg 2x
-            "
-            media="(min-width:1280px)"
-          />
-          <!-- <source
+            " media="(min-width:1280px)" />
+        <!-- <source
             srcset="
               /src/images/order/images/tab/Rectangle1-tab-x1.jpg 1x,
               /src/images/order/images/tab/Rectangle1-tab-x2.jpg 2x
@@ -208,6 +206,7 @@
             "
             media="(max-width:320px)"
           /> -->
+
           <img
             class="order-product-img-hero"
             src="/src/images/order/images/Rectangle-4279.jpg"
@@ -475,20 +474,30 @@
               ></textarea>
             </form>
           </div>
+
         </div>
-        <div class="order-btn">
-          <button data-modal-open type="button" class="order__button">
-            Buy it now
-          </button>
-          <button data-modal-open type="button" class="order__button-add">
-            ADD TO CART
-          </button>
+        <div class="order__cont-mod">
+          <form>
+            <p class="order__message">Leave your message</p>
+            <textarea class="order__message-input" name="comment" id="comment" required></textarea>
+          </form>
         </div>
       </div>
-    </section>
-    <include src="./partials/order/tomodal1.html"></include>
-    <include src="./partials/order/tomodal2.html"></include>
-    <include src="./partials/main/footer.html"></include>
-    <script src="/src/modal.js"></script>
-  </body>
+      <div class="order-btn">
+        <button data-modal-open type="button" class="order__button">
+          Buy it now
+        </button>
+        <button dat-modal-open type="button" class="order__button-add">
+          ADD TO CART
+        </button>
+      </div>
+    </div>
+  </section>
+  <include src="./partials/order/tomodal1.html"></include>
+  <include src="./partials/order/tomodal2.html"></include>
+  <include src="./partials/main/footer.html"></include>
+  <script src="/src/modal.js"></script>
+  <script src="/src/modal2.js"></script>
+</body>
+
 </html>
