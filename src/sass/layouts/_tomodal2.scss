@@ -56,10 +56,6 @@
 }
 
 .modal-close-tab {
-  @media screen and (max-width: 767.9px) {
-    display: none;
-    max-width: inherit;
-  }
   border: 1.5px solid #86e543;
   background-color: #01383a;
   border-radius: 50%;
@@ -82,9 +78,7 @@
     line-height: 1.17;
   }
 
-
   @media screen and (min-width: 1280px) {
-
     font-size: 64px;
     line-height: 1.17;
   }

@@ -18,9 +18,7 @@
     max-height: 500px;
   }
 
-
   @media screen and (min-width: 1280px) {
-
     max-width: 768px;
     max-height: 533px;
   }
@@ -61,19 +59,7 @@
   width: 40px;
 }
 
-
 .modal-close-tab {
-  // @media screen and (max-width: 767.9px) {
-  //   display: none;
-  //   max-width: inherit;
-  // }
-  // border: 1.5px solid #86e543;
-  // background-color: #01383a;
-  // border-radius: 50%;
-  // position: absolute;
-  // right: 20px;
-  // top: 20px;
-
   max-width: inherit;
   border: 1.5px solid #86e543;
   width: 31px;
@@ -86,7 +72,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-
 }
 
 .modal-text {
@@ -98,9 +83,7 @@
     line-height: 1.17;
   }
 
-
   @media screen and (min-width: 1280px) {
-
     font-size: 64px;
     line-height: 1.17;
   }
