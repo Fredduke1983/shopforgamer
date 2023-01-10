@@ -1,0 +1,124 @@
+.accessories {
+    padding-top: 120px;
+    background-image: url(/src/images/accessories/bg-mob-1x.jpg);
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.accessories-items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: center;
+    margin-bottom: 32px;
+}
+.accessories-button {
+    width: 124px;
+    height: 35px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    color: #86E543;
+    background: transparent;
+    border: 1px solid #86E543;
+    border-radius: 16px;
+    /*&:first-child {
+            color: #01383A;
+            background: #86E543;*/
+    &:focus,
+    &:hover {
+        color: #01383A;
+        background: #86E543;
+        box-shadow: 0px 4px 4px rgba(134, 229, 67, 0.2);
+        }
+        box-shadow: 0px 4px 4px rgba(134, 229, 67, 0.2);
+    }
+    
+    .accessories-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.16;
+    color:  #FFFFFF;
+    margin-left: 16px;
+    margin-bottom: 27px;
+    @media screen and( min-width:768px){
+        padding-left: 142px;
+        font-weight: 600;
+        font-size: 56px;
+        line-height: 1.17;
+        
+    }
+    }
+    .accessories-list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .accessories-wrap {
+        background: linear-gradient(0deg, #01383A, #01383A);
+        border: 1px solid #86E543;
+        box-shadow: 0px 4px 4px rgba(134, 229, 67, 0.2);
+        border-radius: 12px;
+        width: 285px;
+        height: 276px;
+        margin-bottom: 8px;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .accessories-text {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        margin-bottom: 11px;
+        position: absolute;
+        
+
+
+        }
+
+    .accessories-subject {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 1.18;
+    color: #86E543;
+    margin-bottom: 8px;
+    }
+    .accessories-price-list {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 28px;
+
+}
+    .accessories-old-price {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 1;
+        text-decoration-line: line-through;
+        color: #8D9289;
+    }
+
+    .accessories-new-price {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1;
+    color: #86E543;
+    }
+
